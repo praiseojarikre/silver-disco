@@ -1,0 +1,98 @@
+.App {
+  /* position: absolute; */
+  /* padding: 0; */
+  height: 100%;
+  background-color: #e0e8ff;
+  text-align: center;
+}
+.solely {
+  position: relative;
+ bottom: 30vh;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+}
+.summary {
+  width: 400px;
+  margin-top: -24px;
+border-radius: 0px 0px 8px 8px;
+  background-color: white;
+  height: 600px;
+
+}
+
+.bcn{
+  padding-top: 20px;
+}
+.btn {
+  width: 250px;
+  height: 45px;
+  background-color: blue;
+  color: white;
+  border-radius: 8px;
+  border: none;
+}
+.bnn{
+  width: 250px;
+  height: 45px;
+  background-color:  rgb(219, 218, 248); 
+  /* padding-top: 20px; */
+  /* color: white; */
+  border-radius: 8px;
+  border: none;
+}
+.person {
+  border-radius: 8px 8px 0px 0px;
+  width: 400px;
+}
+.imgs {
+  width: 98.5vw;
+}
+.music {
+  width: 40px;
+  height: 40px;
+  padding-top: 20px;
+}
+.plan {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 50px;
+  border-radius: 8px;
+  width: 300px;
+  background-color: rgb(219, 218, 248);
+}
+:hover.a {
+  padding-top: 10px;
+  text-decoration: underline;
+  color: blue;
+  font-size: 18px;
+}
+.a{
+  padding-top: 10px;
+  text-decoration: underline;
+}
+.butn {
+  padding-top: 20px;
+}
+ @media (max-width: 500px) {
+  .solely{
+    bottom: 0;
+    top: -5px;
+    margin:auto
+  }
+  .App{
+    bottom: 20px;
+    
+  }
+  
+ }
+ @media (max-width:900px) {
+  .solely{
+    bottom: 70px;
+  }
+  .App{
+    height: 100%;
+  }
+ }
