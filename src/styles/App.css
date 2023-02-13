@@ -3,14 +3,9 @@ body{
   background-repeat: no-repeat;
   background-size: contain;
   background-color:#e0e8ff ;
+  /* margin: 5px; */
 }
-.App {
-  
-  height: 100%;
-  width: 100vw;
-  /* background-color: #e0e8ff; */
-  text-align: center;
-}
+
 .solely {
   /* position: relative; */
   /* bottom: 30vh; */
@@ -18,10 +13,12 @@ body{
   text-align: center;
   display: flex;
   justify-content: center;
+  margin: 10px;
 }
 .summary {
   top: 50px;
   width: 400px;
+  
   /* margin-top: -24px; */
   border-radius: 8px;
   background-color: white;
@@ -83,20 +80,38 @@ body{
   padding-top: 20px;
 }
 @media (max-width: 500px) {
+  body{
+    background-image: url(../assets/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+  background-size: contain;
+
+  }
+  .person{
+    width: 100%;
+  }
   .solely {
-    bottom: 0;
-    top: -5px;
-    /* margin:auto */
+    
+    margin: 30px;
   }
-  .App {
-    bottom: 20px;
+  .summary{
+    /* border: solid; */
+    margin-top: 4rem;
+
   }
+  .plan {
+    display: flex;
+    justify-content: space-around;
+    margin: auto ;
+    border-radius: 8px;
+    width: 95%;
+    background-color: rgb(219, 218, 248);
+    /* border: solid; */
+  }
+ 
 }
 @media (max-width: 900px) {
-  .solely {
-    bottom: 70px;
-  }
-  .App {
-    height: 100%;
-  }
+ body{
+     margin: auto ;
+ } 
+ 
 }
