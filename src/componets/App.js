@@ -13,7 +13,7 @@ function App() {
   return (
    
       <div className="App">
-<img src={img} alt="" className='imgs'/>
+<img src={img} alt="" className='imgs'/ >
 <Header/>
     </div>
   );
